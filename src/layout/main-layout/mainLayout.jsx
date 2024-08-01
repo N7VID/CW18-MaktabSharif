@@ -1,0 +1,13 @@
+export default function MainLayout({ children }) {
+  return (
+    <div className="flex flex-col h-screen">
+      <header className="bg-[#203040] text-white text-center py-2 text-lg">
+        React Shopping Cart
+      </header>
+      <div className="flex-grow">{children}</div>
+      <footer className="bg-[#203040] text-white text-center py-2 text-lg">
+        All right is reserved
+      </footer>
+    </div>
+  );
+}
