@@ -4,7 +4,7 @@ export default function MainLayout({ children }) {
       <header className="bg-[#203040] text-white text-center py-2 text-lg">
         React Shopping Cart
       </header>
-      <div className="flex-grow">{children}</div>
+      <main className="flex-grow">{children}</main>
       <footer className="bg-[#203040] text-white text-center py-2 text-lg">
         All right is reserved
       </footer>
