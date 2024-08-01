@@ -1,10 +1,11 @@
-{"products":[
+{
+    "products":[
     {
         "id":1,
         "name":"Frill mini dress in yellow polka dot",
         "size":["L","XS","S"],
         "price":10.9,
-        "imgUrl":"https://dress-shop-omega.liara.run/images/dress5.jpg",
+        "imgUrl":"/dress5.jpg",
         "description":"description description description description description description description"
     },
     {
@@ -12,7 +13,7 @@
         "name":"Midi dress in pink ditsy floral",
         "size":["L","M","S"],
         "price":14.9,
-        "imgUrl":"https://dress-shop-omega.liara.run/images/dress3.jpg",
+        "imgUrl":"/dress3.jpg",
         "description":"description description description description description description description"
     },
     {
@@ -20,7 +21,7 @@
         "name":"Midi sundress with ruched front",
         "size":["L","XL","M"],
         "price":18.9,
-        "imgUrl":"https://dress-shop-omega.liara.run/images/dress2.jpg",
+        "imgUrl":"/dress2.jpg",
         "description":"description description description description description description description"
     },
     {
@@ -28,7 +29,7 @@
         "name":"cami maxi dress in polka dot",
         "size":["S","XL","M"],
         "price":25.9,
-        "imgUrl":"https://dress-shop-omega.liara.run/images/dress4.jpg",
+        "imgUrl":"/dress4.jpg",
         "description":"description description description description description description description"
     },
     {
@@ -36,14 +37,14 @@
         "name":"Midi sundress with shirring detail",
         "size":["XXL","XL","S"],
         "price":29.9,
-        "imgUrl":"https://dress-shop-omega.liara.run/images/dress1.jpg",
+        "imgUrl":"/dress1.jpg",
         "description":"description description description description description description description"
     },    {
         "id":6,
         "name":"Midi tea dress in blue and red spot",
         "size":["XL","XS","S"],
         "price":49.9,
-        "imgUrl":"https://dress-shop-omega.liara.run/images/dress6.jpg",
+        "imgUrl":"/dress6.jpg",
         "description":"description description description description description description description"
     }
 
