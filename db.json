@@ -1,0 +1,50 @@
+{"products":[
+    {
+        "id":1,
+        "name":"Frill mini dress in yellow polka dot",
+        "size":["L","XS","S"],
+        "price":10.9,
+        "imgUrl":"https://dress-shop-omega.liara.run/images/dress5.jpg",
+        "description":"description description description description description description description"
+    },
+    {
+        "id":2,
+        "name":"Midi dress in pink ditsy floral",
+        "size":["L","M","S"],
+        "price":14.9,
+        "imgUrl":"https://dress-shop-omega.liara.run/images/dress3.jpg",
+        "description":"description description description description description description description"
+    },
+    {
+        "id":3,
+        "name":"Midi sundress with ruched front",
+        "size":["L","XL","M"],
+        "price":18.9,
+        "imgUrl":"https://dress-shop-omega.liara.run/images/dress2.jpg",
+        "description":"description description description description description description description"
+    },
+    {
+        "id":4,
+        "name":"cami maxi dress in polka dot",
+        "size":["S","XL","M"],
+        "price":25.9,
+        "imgUrl":"https://dress-shop-omega.liara.run/images/dress4.jpg",
+        "description":"description description description description description description description"
+    },
+    {
+        "id":5,
+        "name":"Midi sundress with shirring detail",
+        "size":["XXL","XL","S"],
+        "price":29.9,
+        "imgUrl":"https://dress-shop-omega.liara.run/images/dress1.jpg",
+        "description":"description description description description description description description"
+    },    {
+        "id":6,
+        "name":"Midi tea dress in blue and red spot",
+        "size":["XL","XS","S"],
+        "price":49.9,
+        "imgUrl":"https://dress-shop-omega.liara.run/images/dress6.jpg",
+        "description":"description description description description description description description"
+    }
+
+]}
