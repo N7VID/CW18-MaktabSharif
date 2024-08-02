@@ -2,6 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import FilterBar from "../filterBar/filterBar";
 import Product from "../product/product";
 import axios from "axios";
+import { useState } from "react";
 
 export default function ProductsContainer() {
   const { data, isLoading, isError, error } = useQuery({
