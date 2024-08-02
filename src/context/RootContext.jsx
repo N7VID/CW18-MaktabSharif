@@ -1,9 +1,13 @@
 import { createContext, useContext, useState } from "react";
 
-const RootContext = createContext();
+export const RootContext = createContext();
 
 export default function RootContextProvider({ children }) {
   const [cart, setCart] = useState([]);
+  const [params, setParams] = useState({
+    order: "asc",
+    size: "",
+  });
 
   function addToCart(product) {
     const isExistProduct = !!cart.find((item) => item.id === product.id);
@@ -26,7 +30,9 @@ export default function RootContextProvider({ children }) {
   }
   console.log(cart);
   return (
-    <RootContext.Provider value={{ cart, addToCart, deleteCart }}>
+    <RootContext.Provider
+      value={{ cart, addToCart, deleteCart, params, setParams }}
+    >
       {children}
     </RootContext.Provider>
   );

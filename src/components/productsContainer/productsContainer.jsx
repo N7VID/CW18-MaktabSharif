@@ -1,14 +1,18 @@
 import { useQuery } from "@tanstack/react-query";
+import axios from "axios";
 import FilterBar from "../filterBar/filterBar";
 import Product from "../product/product";
-import axios from "axios";
-import { useState } from "react";
+import { useContext } from "react";
+import { RootContext } from "../../context/RootContext";
 
 export default function ProductsContainer() {
+  const { params, setParams } = useContext(RootContext);
   const { data, isLoading, isError, error } = useQuery({
-    queryKey: ["products"],
+    queryKey: ["products", params],
     queryFn: async () => {
-      const res = await axios.get(`http://localhost:3000/products`);
+      const res = await axios.get(
+        `http://localhost:3000/products?_sort=price&_order=${params.order}&q=${params.size}`
+      );
       return res.data;
     },
   });
